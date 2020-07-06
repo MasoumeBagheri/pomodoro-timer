@@ -1,0 +1,111 @@
+.pomodoro {
+  background-color: #e8effc;
+  font-family: Lobster, cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.pomodoro-timer {
+  background-color: #6495ed;
+  color: #e8effc;
+  width: 600px;
+  height: 620px;
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  font-family: Lobster, cursive;
+  display: flex;
+  justify-content: center;
+}
+.pomodoro-timer-title {
+  font-size: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.button-responsive {
+  display: flex;
+  justify-content: center;
+}
+
+.base-timer {
+  position: relative;
+  height: 270px;
+  width: 270px;
+  margin-top: 100px;
+  color: #e8effc;
+  text-align: center;
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: rgb(169, 169, 169);
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 30px;
+}
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: #00cccc;
+}
+.base-timer__path-remaining.white {
+  color: white;
+}
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+.counter-margin {
+  margin-top: 20px;
+}
+.background-counter {
+  position: relative;
+  border-radius: 50%;
+  background-color: #1e90ff;
+  width: 70px;
+  height: 70px;
+}
+.counter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.sound {
+  display: flex;
+  justify-content: flex-end;
+}
