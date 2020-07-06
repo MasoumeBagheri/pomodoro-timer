@@ -24,25 +24,3 @@ const PomodoroSound = (props) => {
 };
 
 export default PomodoroSound;
-/* class pomodoroSound extends Component {
-  /*    constructor(props) {
-        super(props);
-        this.state = {  }
-    } */
-// state = {
-//  isPouseAudio: true,
-// };
-//render() {
-//  return this.props.minutes === 0 && this.props.seconds === 0 ? (
-//    <audio src={alarmAudio} autoPlay />
-// ) : null;
-// }
-//} */
-
-//export default pomodoroSound;
-/* const pomodoroSound = (props) =>
-  props.minutes === 0 && props.seconds === 0 ? (
-    <audio src={alarmAudio} autoPlay />
-  ) : null;
-
-export default pomodoroSound; */
